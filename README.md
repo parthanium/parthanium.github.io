@@ -1,2 +1,2 @@
-mygithubpage
+parthanium.github.io
 ============
