@@ -20,7 +20,7 @@
       	transition: all 0.25s;
       }
       ::selection {
-        color: #E67E22; 
+        color: #03A9F4; 
         background: #FFFFFF;
       }
       body {
@@ -128,6 +128,14 @@
     		}
     	})
 
+    	$(document).keyup(function(e) {
+    	  if (e.keyCode == 27) {
+    	  	$("#list").css("margin-left", "-10em");
+    	  	$("#menu").css("width", "0");
+    	  	$("#menu").css("box-shadow", "0 0 0 100em rgba(0, 0, 0, 0)");
+    	  	status = "closed"
+    	  };
+    	});
     </script>
   </body>
 </html>
