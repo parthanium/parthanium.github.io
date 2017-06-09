@@ -1,0 +1,63 @@
+/* Color Scheme
+green - #5DFDCB
+blue - #7CC6FE
+white - #F4FAFF
+purple - #8789C0
+black - #08090A
+*/
+.bgwhite {
+	background-color: #F4FAFF;
+}
+.fgwhite {
+	color: #F4FAFF;
+}
+.bgblack {
+	background-color: #08090A;
+}
+.fgblack {
+	color: #08090A;
+}
+.center {
+	text-align: center;
+}
+.mono {
+	font-family: 'PT Mono', monospace;
+}
+.fancy {
+	font-family: 'Cantata One', serif;
+}
+#container {
+	padding: 10%;
+}
+#name {
+	font-size: 5em;
+	margin-top: 10%;
+}
+#nav {
+	margin-top: 2%;
+}
+#title {
+	display: inline-block;
+	font-size: 4em;
+	padding-bottom: 0.1em;
+	margin-bottom: 0.75em;
+	border-bottom: solid 0.15em #5DFDCB;
+}
+#content {
+	line-height: 1.25em;
+}
+a, a:visited {
+	display: inline-block;
+	text-decoration: none;
+	color: #08090A;
+	border-bottom: solid 0.15em #7CC6FE;
+}
+.link {
+	font-size: 1.15em;
+	padding: 0.1em;
+	margin: 0 0.25em;
+}
+a:hover, a:active {
+	background-color: #7CC6FE;
+	color: #F4FAFF;
+}
