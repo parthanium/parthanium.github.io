@@ -61,3 +61,26 @@ a:hover, a:active {
 	background-color: #7CC6FE;
 	color: #F4FAFF;
 }
+.sneak {
+	display: none;
+}
+@media only /*screen and (max-device-height : 768px),*/ screen and (max-device-width : 1024px) {
+    body {
+    	font-size: 2.5em;
+    }
+    #nav {
+    	margin-top: 5em;
+    	width: 100%;
+    }
+    .sneak {
+    	display: block;
+    }
+    .link {
+    	margin: 0.5em 0;
+    	font-size: 1.5em;
+    }
+    #content {
+    	font-size: 1.25em;
+    	line-height: 1.5em;
+    }
+}
